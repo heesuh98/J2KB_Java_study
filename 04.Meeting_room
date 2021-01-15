@@ -1,6 +1,6 @@
 package com.java.study;
 
-public class Week202{
+public class Meeting_room{
   public static void main(String[] args){
   
   int num = 0;
