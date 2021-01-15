@@ -1,0 +1,27 @@
+package com.java.study;
+
+public class Week202{
+  public static void main(String[] args){
+  
+  int num = 0;
+  int sum = 0;
+  
+  for (int i =0; i<200; i++) {
+      num++;
+      
+      if((num % 2) == 0) {
+          sum += -num;
+          System.out.println(i + 1 + "번째 sum = " = sum);
+      } else if ((num % 2) !=0) {
+        sum +=num;
+        System.out.println(i+1 + "번째 sum = " + sum);
+      }
+      
+      if(sum >= 100) {
+        System.out.println("몇까지 더해야 총합이 100이상인 수가 나오는가?" + num);
+        break;
+        
+      }
+    }
+  }
+}
